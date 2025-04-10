@@ -45,7 +45,7 @@ No manual pin setup is required.
 - The joystick read functions are **very basic**.
 - It is recommended to apply a **deadzone of about 0.03** to prevent stick drift.
 - Consider adding **additional filtering** to improve the smoothness of joystick and trigger inputs (See how the battery voltage is read).
-- Remove all **delays and Serial prints** to increase the frequency sensors can be read.
+- Remove all **delays and Serial prints** to increase the frequency at which the sensors can be read.
 
 ---
 
