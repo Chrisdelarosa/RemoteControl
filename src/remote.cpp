@@ -16,7 +16,7 @@ void setup() {
 void loop() {
   readJoysticks();
   readSwitches();
-  readRotary();
+  //readRotary();
   
   //sendData();
   printData();
