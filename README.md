@@ -1,7 +1,7 @@
 
 # ProS3 Remote Library - Getting Started
 
-This project is built for ProS3 boards with Espressif MCUs. It provides simple setup and data handling for input devices like joysticks, triggers, buzzers, and more.
+This project is built for use with MIT 2.12 Remotes using ProS3 boards. It provides simple setup and data handling for input devices like joysticks, triggers, buzzers, and more.
 
 All necessary functions and pinouts are included in `<remote.h>`, so you only need to include this one header file in your program.
 
