@@ -277,9 +277,9 @@ void printData() {
     Serial.printf("Right X: %.2f, Y: %.2f", data.rightX, data.rightY);
     Serial.printf("Left X: %.2f, Y: %.2f", data.leftX, data.leftY);
   
-    Serial.print("Switches: R: ");
+    Serial.print("Switches: L: ");
     Serial.print(data.swch1);
-    Serial.print(" L: ");
+    Serial.print(" R: ");
     Serial.println(data.swch2);
     delay(100);
 }
