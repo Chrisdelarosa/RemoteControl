@@ -33,6 +33,12 @@ Use the `read___()` functions to read from each sensor. The input data is stored
 
 ---
 
+## Wireless Communication
+
+initialize Sender for the Remote, and Reciever for the Robot. If you way two way communication, you must use 2 Mac addresses, and initialize both reciever and sender with the other's address. After reading sensor values, use `sendData()`, recieving values is done automatically after initializing reciever.
+
+---
+
 ## Pinouts
 
 All pin definitions are pre-set in `<pinouts.h>` and automatically linked through `<remote.h>`.  
